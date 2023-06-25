@@ -1,0 +1,13 @@
+body {
+/* body styling will go here */
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    height: 800vh;
+}
+nav ul {
+    outline: red dashed 2px
+    list-style-type: none;
+}
+.banner image {
+    height: 100%
+    width: 100%
+}
