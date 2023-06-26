@@ -18,14 +18,26 @@ nav ul li {
     list-style: none;
 }
 #big-card {
-    outline: green dashed 2px;
-    width: 1000px;
+    outline: rgb(128, 32, 0) dashed 2px;
+    width: 1020px;
     height: 250px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    margin: 10px;
 }
 .card {
     outline: green dashed 2px;
     width: 500px;
-    height: 250px; 
+    height: 250px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    margin: 10px;
+}
+h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    align-items: center;
+}
+div img {
+    width: 500px;
+    height: 250px;
 }
 
 /* #big-card {
