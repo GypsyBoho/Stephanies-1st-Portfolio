@@ -7,6 +7,10 @@ header {
 }
 .flex-box {
     display: flex;
+    justify-content: center;
+}
+.flex-item-1 {
+    background-color: aqua;
 }
 .nav-bar {
     outline: green dashed 2px;
@@ -19,15 +23,18 @@ nav ul li {
 }
 #big-card {
     outline: rgb(128, 32, 0) dashed 2px;
-    width: 1020px;
-    height: 250px;
+    width: 85vw;
+    height: 500px;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     margin: 10px;
+    background-image: url(../images/clement-helardot-95YRwf6CNw8-unsplash.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 .card {
     outline: green dashed 2px;
-    width: 500px;
-    height: 250px;
+    /* flex: 0 0 20%; */
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     margin: 10px;
 }
@@ -39,7 +46,28 @@ div img {
     width: 500px;
     height: 250px;
 }
+.card--image {
+    background-image: url(../images/christopher-gower-m_HRfLhgABo-unsplash.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 500px;
+    height: 250px;
+    position: relative;
+}
+.card--title {
+    color: rgb(255, 0, 238);
+    position: absolute;
+    top: 50px;
+    left: 50px;
+}
+.card--second {
+    background-image: url(../images/ilya-pavlov-OqtafYT5kTw-unsplash.jpeg);
 
+}
+.card--third {
+    background-image: url(../images/p799148926-5.jpeg);
+}
 /* #big-card {
 
 } */
