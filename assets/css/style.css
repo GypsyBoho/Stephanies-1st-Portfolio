@@ -1,19 +1,21 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
-    height: 1000vh;
+    /* height: 800vh; */
 }
 header {
     font-family: sans-serif;
 }
 .flex-box {
     display: flex;
+}
+.center{
     justify-content: center;
 }
-.flex-item-1 {
+/* .flex-item-1 {
     background-color: aqua;
-}
+} */
 .nav-bar {
-    outline: green dashed 2px;
+    /* outline: green dashed 2px; */
     justify-content: space-between;
     background-color: white;
 }
@@ -22,7 +24,7 @@ nav ul li {
     list-style: none;
 }
 #big-card {
-    outline: rgb(128, 32, 0) dashed 2px;
+    /* outline: rgb(128, 32, 0) dashed 2px; */
     width: 85vw;
     height: 500px;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
@@ -34,11 +36,16 @@ nav ul li {
     border-radius: 15px;
 }
 .card {
-    outline: green dashed 2px;
     /* flex: 0 0 20%; */
+    background-color: rgb(208, 208, 208);
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     margin: 10px;
     border-radius: 15px
+}
+.card:hover {
+    outline-color: rgb(139, 0, 86);
+    outline-width: 10px;
+    box-shadow: 0 4px 8px 0 rgba(159, 253, 201, 0.2)
 }
 h2 {
     text-align: center;
@@ -47,7 +54,7 @@ div img {
     width: 500px;
     height: 250px;
 }
-.card--image {
+.card-image {
     background-image: url(../images/christopher-gower-m_HRfLhgABo-unsplash.jpeg);
     background-repeat: no-repeat;
     background-position: center;
@@ -57,53 +64,52 @@ div img {
     position: relative;
     border-radius: 15px
 }
-.card--title {
-    color: rgb(255, 0, 238);
+.card-title {
+    color: rgb(255, 255, 255);
     position: absolute;
     top: 50px;
     left: 50px;
+    font-size: larger   ;
 }
-.card--second {
+.card-second {
     background-image: url(../images/ilya-pavlov-OqtafYT5kTw-unsplash.jpeg);
 
 }
-.card--third {
+.card-third {
     background-image: url(../images/p799148926-5.jpeg);
+    
 }
+
+div ul {
+    list-style-type: none;
+    justify-content: right;
+}
+
 .fa {
     padding: 20px;
     font-size: 30px;
-    width: 50px;
+    width: 20px;
     text-align: center;
     text-decoration: none;
+    border-radius: 50%;
   }
-  
+
+.fa-linkedin{
+    color: rgb(0, 0, 0);
+    background-color: brown;
+}
+
   /* Add a hover effect if you want */
-  .fa:hover {
+.fa:hover {
     opacity: 0.7;
-    
-/* #big-card {
-
-} */
-/* ul {
-    outline: green dashed 2px;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
 }
-  
-li {
-    outline: green dashed 2px;
-    display: inline;
-    float: right;
-
-}
-li a {
-    display:block
-    color: white;
+#about-me p {
     text-align: center;
-    padding: 14px 16px
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 15px;
 }
-li a:hover {
-    background-color: black;
-} */
+@media only screen and (max-width: 1000px) {
+    .double {
+        display: block;
+    }
+  }
