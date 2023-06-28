@@ -13,13 +13,29 @@
 
 [Visit My Deployed Site](https://)
 
-This is my first webage entirely from scratch. It demonstraights the skills I have learned such as flex-boxes, elements, classes and id's. I have included an "About me" section as well as well as some of my past work including a website that I built. 
+- This is my first webage entirely from scratch. 
+- It demonstraights the skills I have learned such as flex-boxes, elements, classes and id's. 
+- I have included an "About me" section as well as well as some of my past work including a website that I built and a few ways to contact me.
+- This site is still evolving and will get updated regularly 
 
-## Attributions
+## Installation
+
+N/A
+
+## Usage
+
+Navigate to the url and look around my site. It is still evolving so come back often to see it change.
+
+![Stephanies First Website](./assets/images/image-of-website.png)
+
+## Credits
+
 <a href="https://www.flaticon.com/free-icons/contact-us" title="contact-us icons">Contact-us icons created by Corner Pixel - Flaticon</a>
 
 <a href="https://unsplash.com/photos/cOkpTiJMGzA?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink">Images from Unsplash.com</a>
 
 <a href="https://unsplash.com/photos/cOkpTiJMGzA?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink">Image from Unsplashed.com</a>
 
+## License
 
+N/A
