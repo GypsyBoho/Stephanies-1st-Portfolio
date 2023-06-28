@@ -30,11 +30,23 @@ Navigate to the url and look around my site. It is still evolving so come back o
 
 ## Credits
 
+I used a few online resources for images and icons throughout my site, the full
+
 <a href="https://www.flaticon.com/free-icons/contact-us" title="contact-us icons">Contact-us icons created by Corner Pixel - Flaticon</a>
 
 <a href="https://unsplash.com/photos/cOkpTiJMGzA?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink">Images from Unsplash.com</a>
 
-<a href="https://unsplash.com/photos/cOkpTiJMGzA?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink">Image from Unsplashed.com</a>
+<a href="https://unsplash.com/photos/m_HRfLhgABo?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink">Images from Unsplash.com</a>
+
+<a href=https://unsplash.com/photos/yUBRaf3yXsY?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink">Image from Unsplashed.com</a>
+
+<a href="https://unsplash.com/fr/@ilyapavlov?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Images from Unsplashed.com</a>
+  
+ 
+<a href="https://unsplash.com/fr/@ilyapavlov?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Images from Unsplashed.com</a>
+  
+  
+
 
 ## License
 
